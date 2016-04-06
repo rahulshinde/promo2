@@ -24,7 +24,8 @@ body {
 		TYPOGRAPHY
 	============================= */
 .content-title {
-	margin-bottom: 40px;
+	/*margin-top: 130px;*/
+	margin-bottom: 30px;
 	font-family: 'PT Sans', sans-serif;
 	color: blue;
 	letter-spacing: 10px;
@@ -34,11 +35,11 @@ body {
 }
 
 .title-intro {
-	width: 76%;
-	margin-left: 12%;
-	margin-bottom: 40px;
+	width: 66%;
+	margin-left: 17%;
+	margin-bottom: 90px;
 	font-family: 'PT Serif Caption', serif;
-	text-align: justify;
+text-align: left;
 	font-size: 16px;
 	line-height: 23px;
 	font-weight: 400;
@@ -83,9 +84,9 @@ img {
 	font-size: 34px;
 	text-align: center;
 	line-height: 46px;
-	color: #ffcaca;
+	color:blue;
 
-	border: 1px solid #ffcaca;
+	border: 1px solid blue;
 	border-radius: 10px;
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
@@ -122,4 +123,46 @@ img {
 .sun a:link,
 .sun a:visited {
 	color: blue;
+}
+
+.stars-promo {
+	margin-top: 100px;
+	margin-bottom: 70px;
+	float: left;
+	width: 100%;
+
+	background: url('../img/background.jpg');
+	background-size: 85%;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.stars-promo h1,
+.stars-promo h2,
+.stars-promo p {
+	color: #fff;
+	text-align: center;
+	text-shadow: 2px 2px 5px #ffcaca;
+
+	animation: blinker 0.2s linear infinite;
+}
+
+@keyframes blinker {  
+  50% { color: rgba(255,255,255,0); }
+}
+
+.stars-promo h1 {
+	margin-top: 40px;
+	font-size: 75px;
+}
+
+.stars-promo h2 {
+	margin-top: 20px;
+	font-size: 60px;
+}
+
+.stars-promo p {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 15px;
 }

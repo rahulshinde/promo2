@@ -167,7 +167,7 @@ p {
 
 #click1 {
 	position: fixed;
-	top: 155px;
+	top: 180px;
 	left: 575px;
 	
 	padding-bottom:10px;
@@ -175,7 +175,7 @@ p {
 	-moz-transform: rotate(90deg);
  	-webkit-transform: rotate(90deg);
   	transform: rotate(90deg);
-	z-index: 100;
+	z-index: 1000;
 	border-top: 1px solid #ffe705;
 	border-left: 1px solid #ffe705;
 	border-right: 1px solid #ffe705;
