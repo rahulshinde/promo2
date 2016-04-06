@@ -97,6 +97,7 @@ body {
 
 .italic {
 	font-style: italic;
+	padding-left: 5px;
 }
 
 .bold {

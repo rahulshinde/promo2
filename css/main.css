@@ -9,3 +9,32 @@
 /** {
 	background-color: rgba(0,0,0,0.3);
 }*/
+
+body {
+}
+
+.content-container {
+	width: 80%;
+	margin-left: 10%;
+	margin-top: 100px;
+
+}
+
+/* 	=============================
+		TYPOGRAPHY
+	============================= */
+
+.content-title {
+	color: blue;
+	font-size: 150px;
+	font-style: italic;
+}
+
+h2 {
+	font-size: 30px;
+	color:#ffcaca;
+}
+
+img {
+	width: 80%;
+}
