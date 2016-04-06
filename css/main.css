@@ -24,17 +24,51 @@ body {
 		TYPOGRAPHY
 	============================= */
 
-.content-title {
-	color: blue;
-	font-size: 150px;
-	font-style: italic;
+.title-intro {
+	width: 68%;
+	margin-left: 16%;
+	margin-bottom: 40px;
+	font-family: 'PT Serif Caption', serif;
+	text-align: left;
+	font-size: 16px;
+	line-height: 23px;
+	font-weight: 400;
+	color: blue; 
 }
 
-h2 {
-	font-size: 30px;
-	color:#ffcaca;
+.content-title {
+	margin-bottom: 40px;
+	font-family: 'PT Sans', sans-serif;
+	color: blue;
+	letter-spacing: 10px;
+	font-size: 160px;
+	text-align: center;
+	font-style: italic;
 }
 
 img {
 	width: 80%;
+}
+
+
+.text-container {
+	/* Box-model */
+	display: inline-block;
+	width: 96%;
+	padding: 20px 2%;
+	margin-bottom: 50px;
+	/* Typography */
+	font-size: 30px;
+	color:#ffcaca;
+	font-family: 'PT Sans', sans-serif;
+	font-weight: bold;
+    text-align: left;
+    font-size: 28px;
+    line-height: 37px;
+	/* Visual */
+	border: 1px solid #ffcaca;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	/* Misc */
 }
