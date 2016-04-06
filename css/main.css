@@ -23,19 +23,6 @@ body {
 /* 	=============================
 		TYPOGRAPHY
 	============================= */
-
-.title-intro {
-	width: 68%;
-	margin-left: 16%;
-	margin-bottom: 40px;
-	font-family: 'PT Serif Caption', serif;
-	text-align: left;
-	font-size: 16px;
-	line-height: 23px;
-	font-weight: 400;
-	color: blue; 
-}
-
 .content-title {
 	margin-bottom: 40px;
 	font-family: 'PT Sans', sans-serif;
@@ -45,6 +32,19 @@ body {
 	text-align: center;
 	font-style: italic;
 }
+
+.title-intro {
+	width: 76%;
+	margin-left: 12%;
+	margin-bottom: 40px;
+	font-family: 'PT Serif Caption', serif;
+	text-align: justify;
+	font-size: 16px;
+	line-height: 23px;
+	font-weight: 400;
+	color: blue; 
+}
+
 
 img {
 	width: 80%;
@@ -71,4 +71,55 @@ img {
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
 	/* Misc */
+}
+
+.schedule-title {
+	width: 50%;
+	padding: 2%;
+	margin-top: 60px;
+	margin-left: 25%;
+	padding-bottom: 15px;
+	font-family: 'PT Serif Caption', serif;
+	font-size: 34px;
+	text-align: center;
+	line-height: 46px;
+	color: #ffcaca;
+
+	border: 1px solid #ffcaca;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+}
+
+.schedule {
+	width: 80%;
+	margin-left: 10%;
+	margin-top: 50px;
+}
+
+.sat {
+	float: left;
+	width: 45%;
+	margin-right: 10%;
+}
+
+.sun {
+	float: left;
+	width: 45%;
+	margin-right: 0;
+}
+
+.sat h1,
+.sun h1 {
+	color: blue;
+	font-size: 14px;
+}
+
+.line-under {
+	border-bottom: 1px solid #ffcaca;
+}
+
+.sun a:link,
+.sun a:visited {
+	color: blue;
 }
