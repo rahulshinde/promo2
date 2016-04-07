@@ -32,6 +32,11 @@ body {
 	font-size: 160px;
 	text-align: center;
 	font-style: italic;
+
+	background: url('../img/background.jpg');
+	background-size: 55%;
+	background-position: center;
+	background-repeat: no-repeat;
 }
 
 .title-intro {
@@ -79,7 +84,7 @@ img {
 	padding: 2%;
 	margin-top: 60px;
 	margin-left: 25%;
-	padding-bottom: 15px;
+	padding-bottom: 20px;
 	font-family: 'PT Serif Caption', serif;
 	font-size: 34px;
 	text-align: center;
@@ -144,7 +149,7 @@ img {
 	text-align: center;
 	text-shadow: 2px 2px 5px #ffcaca;
 
-	animation: blinker 0.2s linear infinite;
+	animation: blinker 0.5s linear infinite;
 }
 
 @keyframes blinker {  
@@ -157,12 +162,12 @@ img {
 }
 
 .stars-promo h2 {
-	margin-top: 20px;
+	margin-top: 40px;
 	font-size: 60px;
 }
 
 .stars-promo p {
-	margin-top: 20px;
+	margin-top: 30px;
 	margin-bottom: 20px;
-	font-size: 15px;
+	font-size: 18px;
 }

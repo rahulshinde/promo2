@@ -161,7 +161,8 @@ p {
 }
 
 #click1,
-#click2 {
+#click2,
+ {
 	cursor: pointer;
 }
 
