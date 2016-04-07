@@ -465,6 +465,10 @@ text-align: left;
 		line-height: 18px;
 	}
 
+	.sun {
+		border-bottom: 1px solid blue;
+	}
+
 	.line-under {
 		border-bottom: none;
 		padding-bottom: 30px;
@@ -488,6 +492,8 @@ text-align: left;
 		/* Typography */
 	    font-size: 18px;
 	    line-height: 24px;
+
+	    border: none;
 		/* Visual */
 		/* Misc */
 	}
@@ -498,6 +504,6 @@ text-align: left;
 		margin-bottom: 0px;
 		width: 100%;
 
-		border-top: 1px solid blue;
+		border-top: none;
 	}
 }
