@@ -20,6 +20,16 @@ body {
 
 }
 
+.web {
+	display: block;
+}
+
+
+.middle,
+.mobile {
+	display: none;
+}
+
 /* 	=============================
 		TYPOGRAPHY
 	============================= */
@@ -184,6 +194,17 @@ text-align: left;
 }
 
 @media (max-width: 900px) { 
+	
+	.middle {
+		display: block;
+	}
+
+
+	.web,
+	.mobile {
+		display: none;
+	}
+
 	.schedule-title {
 		width: 56%;
 		margin-left: 20.5%;
@@ -280,7 +301,23 @@ text-align: left;
 
 }
 
-@media (max-width: 625px) {
+@media (max-width: 575px) {
+
+	.title-text {
+		padding-top: 8px;
+	}
+
+	.mobile {
+		display: block;
+	}
+
+
+	.web,
+	.middle {
+		display: none;
+	}
+	
+
 	.content-title {
 		width: 90%;
 		margin-left: 5%;
