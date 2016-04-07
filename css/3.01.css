@@ -222,13 +222,6 @@ p {
   	transform:  translateX(-50%) translateY(-50%) rotate(90deg);
 }
 
-.intro,
-.intro-close {
-	-webkit-transition: box-shadow 0.2s;
-    -moz-transition: box-shadow 0.2s;
-    -o-transition: box-shadow 0.2s;
-    transition: box-shadow 0.2s;
-}
 
 .intro,
 .intro-close {
@@ -246,18 +239,6 @@ p {
 	z-index: 200;
 	display: block;
 
-}
-
-.intro:hover,
-.intro-close:hover, {
-	cursor: pointer;
-}
-
-.intro:hover,
-.intro-close:hover {
-	-webkit-box-shadow: 6px 0 7px rgba(0,0,0,0.3);
-	-moz-box-shadow: 6px 0 7px rgba(0,0,0,0.3);
-	box-shadow: 6px 0 7px rgba(0,0,0,0.3);
 }
 
 .external-link1 {
