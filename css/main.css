@@ -63,7 +63,7 @@ text-align: left;
 
 .background {
 	margin-top: 60px;
-	padding-top: 60px;
+	padding-top: 100px;
 	margin-bottom: 0px;
 	width: 100%;
 
@@ -98,12 +98,14 @@ text-align: left;
 	float: left;
 	width: 45%;
 	margin-right: 10%;
+	padding-bottom: 100px;
 }
 
 .sun {
 	float: left;
 	width: 45%;
 	margin-right: 0;
+	padding-bottom: 100px;
 }
 
 .sat h1,
@@ -259,19 +261,24 @@ text-align: left;
 	.schedule {
 		width: 80%;
 		margin-left: 10%;
-		margin-top: 40px;
+	}
+
+	.background {
+		padding-top: 50px;
 	}
 
 	.sat {
 		float: left;
 		width: 100%;
-		margin-bottom: 40px;
+		margin-bottom: 0px;
+		padding-bottom: 30px;
 	}
 
 	.sun {
 		float: left;
 		width: 100%;
 		margin-right: 0;
+		padding-bottom: 50px;
 	}
 
 	.line-under {
@@ -349,13 +356,14 @@ text-align: left;
 	.sat {
 		float: left;
 		width: 100%;
-		margin-bottom: 40px;
+		padding-bottom: 0px;
 	}
 
 	.sun {
 		float: left;
 		width: 100%;
 		margin-right: 0;
+		padding-bottom: 30px;
 	}
 
 	.sat h1,
